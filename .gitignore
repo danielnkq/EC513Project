@@ -1,3 +1,6 @@
+# Large binary files (kept as gzipped files instead)
+*cc1
+
 # Prerequisites
 *.d
 
