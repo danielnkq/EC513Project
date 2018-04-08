@@ -1,0 +1,60 @@
+10:41:35 PM - ARM Physical IP, Inc.
+10:41:35 PM - Linux styx 3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+10:41:35 PM - Version r0p0
+10:41:35 PM - GUI version 7.0.14
+10:41:35 PM - 
+10:41:35 PM - CONFIDENTIAL AND PROPRIETARY SOFTWARE OF ARM PHYSICAL IP, INC.
+10:41:35 PM - 
+10:41:35 PM - Copyright (c) 1993 - 2018 ARM Physical IP, Inc.  All Rights Reserved.
+10:41:35 PM - 
+10:41:35 PM - Use of this Software is subject to the terms and conditions of the
+10:41:35 PM - applicable license agreement with ARM Physical IP, Inc. 
+10:41:35 PM - In addition, this Software is protected by patents, copyright law 
+10:41:35 PM - and international treaties.
+10:41:35 PM - 
+10:41:35 PM - The copyright notice(s) in this Software does not indicate actual or
+10:41:35 PM - intended publication of this Software.
+10:41:35 PM - 
+10:41:35 PM - High Density Via ROM RVT RVT Compiler, TSMC CLN65LP 65nm Process ROM
+10:41:35 PM - 
+10:41:35 PM - Log file is ACI.log
+10:41:35 PM - 
+10:42:04 PM - ASCII Datatable updated
+10:42:12 PM - command: /home/aducimo/Downloads/rom_via_hdd_rvt_rvt/r0p0/bin/rom_via_hdd_rvt_rvt postscript -instname rom4096x32m8 -words 4096 -bits 32 -frequency 1 -activity_factor 50 -code_file "rom_via.rcf" -mux 8 -top_layer "m5-m10" -power_type otc -bmux on -back_biasing off -power_gating on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vdde:VDDE,vsse:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:42:15 PM - PostScript Datasheet generator succeeded, created:
+10:42:15 PM -    rom4096x32m8_ss_1p08v_1p08v_125c.ps
+10:42:15 PM -    rom4096x32m8_ss_1p08v_1p08v_m40c.ps
+10:42:15 PM -    rom4096x32m8_ff_1p32v_1p32v_m40c.ps
+10:42:15 PM -    rom4096x32m8_tt_1p20v_1p20v_25c.ps
+10:42:15 PM -    rom4096x32m8_ff_1p32v_1p32v_125c.ps
+10:42:21 PM - command: /home/aducimo/Downloads/rom_via_hdd_rvt_rvt/r0p0/bin/rom_via_hdd_rvt_rvt synopsys -instname rom4096x32m8 -words 4096 -bits 32 -frequency 1 -activity_factor 50 -code_file "rom_via.rcf" -mux 8 -top_layer "m5-m10" -power_type otc -bmux on -back_biasing off -power_gating on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vdde:VDDE,vsse:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -libname USERLIB -nldm on -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:44:40 PM - Synopsys Model generator succeeded, created:
+10:44:40 PM -    rom4096x32m8_nldm_ss_1p08v_1p08v_125c_syn.lib
+10:44:40 PM -    rom4096x32m8_nldm_ss_1p08v_1p08v_m40c_syn.lib
+10:44:40 PM -    rom4096x32m8_nldm_ff_1p32v_1p32v_m40c_syn.lib
+10:44:40 PM -    rom4096x32m8_nldm_tt_1p20v_1p20v_25c_syn.lib
+10:44:40 PM -    rom4096x32m8_nldm_ff_1p32v_1p32v_125c_syn.lib
+10:45:05 PM - command: /home/aducimo/Downloads/rom_via_hdd_rvt_rvt/r0p0/bin/rom_via_hdd_rvt_rvt verilog -instname rom4096x32m8 -words 4096 -bits 32 -frequency 1 -activity_factor 50 -code_file "rom_via.rcf" -mux 8 -top_layer "m5-m10" -power_type otc -bmux on -back_biasing off -power_gating on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vdde:VDDE,vsse:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:45:05 PM - /bin/ksh: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.el7_3.x86_64/jre_tiling/bin/java: not found
+10:45:05 PM - Verilog Model generator failed
+10:45:28 PM - ASCII Datatable updated
+10:45:41 PM - command: /home/aducimo/Downloads/rom_via_hdd_rvt_rvt/r0p0/bin/rom_via_hdd_rvt_rvt postscript -instname rom4096x32m8 -words 4096 -bits 32 -frequency 100 -activity_factor 50 -code_file "rom_via.rcf" -mux 8 -top_layer "m5-m10" -power_type otc -bmux on -back_biasing off -power_gating on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vdde:VDDE,vsse:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:45:43 PM - PostScript Datasheet generator succeeded, created:
+10:45:43 PM -    rom4096x32m8_ss_1p08v_1p08v_125c.ps
+10:45:43 PM -    rom4096x32m8_ss_1p08v_1p08v_m40c.ps
+10:45:43 PM -    rom4096x32m8_ff_1p32v_1p32v_m40c.ps
+10:45:43 PM -    rom4096x32m8_tt_1p20v_1p20v_25c.ps
+10:45:43 PM -    rom4096x32m8_ff_1p32v_1p32v_125c.ps
+10:45:49 PM - command: /home/aducimo/Downloads/rom_via_hdd_rvt_rvt/r0p0/bin/rom_via_hdd_rvt_rvt synopsys -instname rom4096x32m8 -words 4096 -bits 32 -frequency 100 -activity_factor 50 -code_file "rom_via.rcf" -mux 8 -top_layer "m5-m10" -power_type otc -bmux on -back_biasing off -power_gating on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vdde:VDDE,vsse:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -libname USERLIB -nldm on -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:47:55 PM - Synopsys Model generator succeeded, created:
+10:47:55 PM -    rom4096x32m8_nldm_ss_1p08v_1p08v_125c_syn.lib
+10:47:55 PM -    rom4096x32m8_nldm_ss_1p08v_1p08v_m40c_syn.lib
+10:47:55 PM -    rom4096x32m8_nldm_ff_1p32v_1p32v_m40c_syn.lib
+10:47:55 PM -    rom4096x32m8_nldm_tt_1p20v_1p20v_25c_syn.lib
+10:47:55 PM -    rom4096x32m8_nldm_ff_1p32v_1p32v_125c_syn.lib
+10:48:28 PM - command: /home/aducimo/Downloads/rom_via_hdd_rvt_rvt/r0p0/bin/rom_via_hdd_rvt_rvt verilog -instname rom4096x32m8 -words 4096 -bits 32 -frequency 100 -activity_factor 50 -code_file "rom_via.rcf" -mux 8 -top_layer "m5-m10" -power_type otc -bmux on -back_biasing off -power_gating on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vdde:VDDE,vsse:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:48:28 PM - /bin/ksh: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.el7_3.x86_64/jre_tiling/bin/java: not found
+10:48:28 PM - Verilog Model generator failed
+10:55:37 PM - command: /home/aducimo/Downloads/rom_via_hdd_rvt_rvt/r0p0/bin/rom_via_hdd_rvt_rvt verilog -instname rom4096x32m8 -words 4096 -bits 32 -frequency 100 -activity_factor 50 -code_file "rom_via.rcf" -mux 8 -top_layer "m5-m10" -power_type otc -bmux on -back_biasing off -power_gating on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vdde:VDDE,vsse:VSSE" -prefix "" -name_case upper -check_instname off -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:55:37 PM - /bin/ksh: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.141-1.b16.el7_3.x86_64/jre_tiling/bin/java: not found
+10:55:37 PM - Verilog Model generator failed

@@ -1,0 +1,44 @@
+10:55:45 PM - ARM Physical IP, Inc.
+10:55:45 PM - Linux oates.intrinsix.com 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+10:55:45 PM - Version r0p0
+10:55:45 PM - GUI version 7.0.14
+10:55:45 PM - 
+10:55:45 PM - CONFIDENTIAL AND PROPRIETARY SOFTWARE OF ARM PHYSICAL IP, INC.
+10:55:45 PM - 
+10:55:45 PM - Copyright (c) 1993 - 2018 ARM Physical IP, Inc.  All Rights Reserved.
+10:55:45 PM - 
+10:55:45 PM - Use of this Software is subject to the terms and conditions of the
+10:55:45 PM - applicable license agreement with ARM Physical IP, Inc. 
+10:55:45 PM - In addition, this Software is protected by patents, copyright law 
+10:55:45 PM - and international treaties.
+10:55:45 PM - 
+10:55:45 PM - The copyright notice(s) in this Software does not indicate actual or
+10:55:45 PM - intended publication of this Software.
+10:55:45 PM - 
+10:55:45 PM - High Density Dual Port SRAM HVT RVT Compiler, TSMC CLN65LP 65nm Process 0.974um^2 Bit Cell
+10:55:45 PM - 
+10:55:45 PM - Log file is ACI.log
+10:55:45 PM - 
+10:56:23 PM - 
+10:56:23 PM - *** Error *** ascii: -bits option out of range, 32, 10:56:23 PM - must be within 4 and 20
+
+10:56:52 PM - *** Error *** ascii: -words option out of range, 4096, 10:56:52 PM - must be within 128 and 2048
+
+10:57:18 PM - *** Error *** ascii: -words option out of range, 4096, 10:57:18 PM - must be within 128 and 2048
+10:57:54 PM - ASCII Datatable updated
+10:58:00 PM - command: /home/aducimo/Downloads/sram_dp_hde_hvt_rvt/r0p0/bin/sram_dp_hde_hvt_rvt postscript -instname sramdp32x4096 -words 4096 -bits 16 -frequency 100 -activity_factor 50 -mux 16 -write_mask off -wp_size 1 -write_thru off -top_layer "m5-9" -power_type otc -bmux on -ser none -back_biasing off -retention on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vddpe:VDDPE,vddce:VDDCE,vsse:VSSE" -prefix "" -name_case upper -rows_p_bl 256 -check_instname on -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:58:35 PM - PostScript Datasheet generator succeeded, created:
+10:58:35 PM -    sramdp32x4096_ss_1p08v_1p08v_125c.ps
+10:58:35 PM -    sramdp32x4096_ss_1p08v_1p08v_m40c.ps
+10:58:35 PM -    sramdp32x4096_ff_1p32v_1p32v_m40c.ps
+10:58:35 PM -    sramdp32x4096_tt_1p20v_1p20v_25c.ps
+10:58:35 PM -    sramdp32x4096_ff_1p32v_1p32v_125c.ps
+10:58:44 PM - command: /home/aducimo/Downloads/sram_dp_hde_hvt_rvt/r0p0/bin/sram_dp_hde_hvt_rvt verilog -instname sramdp32x4096 -words 4096 -bits 16 -frequency 100 -activity_factor 50 -mux 16 -write_mask off -wp_size 1 -write_thru off -top_layer "m5-9" -power_type otc -bmux on -ser none -back_biasing off -retention on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vddpe:VDDPE,vddce:VDDCE,vsse:VSSE" -prefix "" -name_case upper -rows_p_bl 256 -check_instname on -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:58:46 PM - Verilog Model generator succeeded, created: sramdp32x4096.v
+10:58:56 PM - command: /home/aducimo/Downloads/sram_dp_hde_hvt_rvt/r0p0/bin/sram_dp_hde_hvt_rvt synopsys -instname sramdp32x4096 -words 4096 -bits 16 -frequency 100 -activity_factor 50 -mux 16 -write_mask off -wp_size 1 -write_thru off -top_layer "m5-9" -power_type otc -bmux on -ser none -back_biasing off -retention on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vddpe:VDDPE,vddce:VDDCE,vsse:VSSE" -prefix "" -name_case upper -rows_p_bl 256 -check_instname on -diodes on -drive 6 -libname USERLIB -nldm on -ccs off -ecsm off -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+11:15:55 PM - Synopsys Model generator succeeded, created:
+11:15:55 PM -    sramdp32x4096_nldm_ss_1p08v_1p08v_125c_syn.lib
+11:15:55 PM -    sramdp32x4096_nldm_ss_1p08v_1p08v_m40c_syn.lib
+11:15:55 PM -    sramdp32x4096_nldm_ff_1p32v_1p32v_m40c_syn.lib
+11:15:55 PM -    sramdp32x4096_nldm_tt_1p20v_1p20v_25c_syn.lib
+11:15:55 PM -    sramdp32x4096_nldm_ff_1p32v_1p32v_125c_syn.lib

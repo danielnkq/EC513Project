@@ -1,0 +1,43 @@
+10:14:10 PM - ARM Physical IP, Inc.
+10:14:10 PM - Linux oates.intrinsix.com 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+10:14:10 PM - Version r0p0
+10:14:10 PM - GUI version 7.0.14
+10:14:10 PM - 
+10:14:10 PM - CONFIDENTIAL AND PROPRIETARY SOFTWARE OF ARM PHYSICAL IP, INC.
+10:14:10 PM - 
+10:14:10 PM - Copyright (c) 1993 - 2018 ARM Physical IP, Inc.  All Rights Reserved.
+10:14:10 PM - 
+10:14:10 PM - Use of this Software is subject to the terms and conditions of the
+10:14:10 PM - applicable license agreement with ARM Physical IP, Inc. 
+10:14:10 PM - In addition, this Software is protected by patents, copyright law 
+10:14:10 PM - and international treaties.
+10:14:10 PM - 
+10:14:10 PM - The copyright notice(s) in this Software does not indicate actual or
+10:14:10 PM - intended publication of this Software.
+10:14:10 PM - 
+10:14:10 PM - High Density Two Port Register File HVT RVT Compiler, TSMC cln65lp 65nm Process, 0.974m^2 Bit Cell
+10:14:10 PM - 
+10:14:10 PM - Log file is ACI.log
+10:14:10 PM - 
+10:14:35 PM - ASCII Datatable updated
+10:14:39 PM - 
+10:14:39 PM - *** Error *** ascii: -words option out of range, 32, 10:14:39 PM - must be within 64 and 1024
+10:14:50 PM - ASCII Datatable updated
+10:15:00 PM - ASCII Datatable updated
+10:15:28 PM - ASCII Datatable updated
+10:15:30 PM - command: /home/aducimo/Downloads/rf_2p_hde_hvt_rvt/r0p0/bin/rf_2p_hde_hvt_rvt postscript -instname rf2p32x32 -words 32 -bits 32 -frequency 100 -activity_factor 50 -mux 1 -write_mask off -wp_size 1 -top_layer "m5-m9" -power_type otc -bmux off -ser none -back_biasing off -retention on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vddpe:VDDPE,vddce:VDDCE,vsse:VSSE" -prefix "" -name_case upper -check_instname on -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:15:54 PM - PostScript Datasheet generator succeeded, created:
+10:15:54 PM -    rf2p32x32_ss_1p08v_1p08v_125c.ps
+10:15:54 PM -    rf2p32x32_ss_1p08v_1p08v_m40c.ps
+10:15:54 PM -    rf2p32x32_ff_1p32v_1p32v_m40c.ps
+10:15:54 PM -    rf2p32x32_tt_1p20v_1p20v_25c.ps
+10:15:54 PM -    rf2p32x32_ff_1p32v_1p32v_125c.ps
+10:16:13 PM - command: /home/aducimo/Downloads/rf_2p_hde_hvt_rvt/r0p0/bin/rf_2p_hde_hvt_rvt verilog -instname rf2p32x32 -words 32 -bits 32 -frequency 100 -activity_factor 50 -mux 1 -write_mask off -wp_size 1 -top_layer "m5-m9" -power_type otc -bmux off -ser none -back_biasing off -retention on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vddpe:VDDPE,vddce:VDDCE,vsse:VSSE" -prefix "" -name_case upper -check_instname on -diodes on -drive 6 -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:16:14 PM - Verilog Model generator succeeded, created: rf2p32x32.v
+10:16:42 PM - command: /home/aducimo/Downloads/rf_2p_hde_hvt_rvt/r0p0/bin/rf_2p_hde_hvt_rvt synopsys -instname rf2p32x32 -words 32 -bits 32 -frequency 100 -activity_factor 50 -mux 1 -write_mask off -wp_size 1 -top_layer "m5-m9" -power_type otc -bmux off -ser none -back_biasing off -retention on -ema on -cust_comment "" -bus_notation on -left_bus_delim "[" -right_bus_delim "]" -pwr_gnd_rename "vddpe:VDDPE,vddce:VDDCE,vsse:VSSE" -prefix "" -name_case upper -check_instname on -diodes on -drive 6 -libname USERLIB -nldm on -corners ss_1p08v_1p08v_125c,ss_1p08v_1p08v_m40c,ff_1p32v_1p32v_m40c,tt_1p20v_1p20v_25c,ff_1p32v_1p32v_125c
+10:19:20 PM - Synopsys Model generator succeeded, created:
+10:19:20 PM -    rf2p32x32_nldm_ss_1p08v_1p08v_125c_syn.lib
+10:19:20 PM -    rf2p32x32_nldm_ss_1p08v_1p08v_m40c_syn.lib
+10:19:20 PM -    rf2p32x32_nldm_ff_1p32v_1p32v_m40c_syn.lib
+10:19:20 PM -    rf2p32x32_nldm_tt_1p20v_1p20v_25c_syn.lib
+10:19:20 PM -    rf2p32x32_nldm_ff_1p32v_1p32v_125c_syn.lib
