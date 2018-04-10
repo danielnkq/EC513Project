@@ -26,6 +26,8 @@
 reg clock, reset, start; 
 reg [19:0] prog_address; 
 reg report; // performance reporting
+reg [80*8:1] rom_filename;
+reg   [31:0] clock_cycles;
 
 // module RISC_V_Core #(parameter CORE = 0, DATA_WIDTH = 32, INDEX_BITS = 6, OFFSET_BITS = 3, ADDRESS_BITS = 20)
 RISC_V_Core CORE (
@@ -40,6 +42,12 @@ RISC_V_Core CORE (
 always #1 clock = ~clock;
 
 initial begin
+  if (!$value$plusargs("ROM_FILE=%s", rom_filename)) begin
+    $display("NO ROM_FILE specified. Exiting simulation");
+    $finish;
+  end
+  $readmemh({"../software/applications/binaries/", rom_filename, ".mem"}, CORE.IF.i_mem_interface.RAM.sram);
+
   clock  = 0;
   reset  = 1;
   report = 0;
@@ -52,6 +60,23 @@ initial begin
 
   start = 0; 
   repeat (1) @ (posedge clock); 
+end
+
+always @(posedge clock) begin
+  if (reset) begin
+    clock_cycles <= 32'd0;
+  end else begin
+    clock_cycles <= clock_cycles+1;
+  end
+end
+
+integer ii;
+always @(negedge clock) begin
+  //$display("PC is: %0h", CORE.inst_PC);
+  if (CORE.inst_PC == 32'h000000b0) begin
+    $display("Test Completed after %0d clock cycles", clock_cycles);
+    $finish;
+  end
 end
 
 endmodule
